@@ -18,6 +18,9 @@
     <ClCompile Include="..\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SDL2_image.dll" />
@@ -27,5 +30,10 @@
     <None Include="libjpeg-9.dll" />
     <None Include="libtiff-5.dll" />
     <None Include="libpng16-16.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
